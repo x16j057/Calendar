@@ -19,7 +19,7 @@ namespace Calendar
             //Console.ReadLine();
             //現在の年月の１日を取得する
             DateTime dateFirst = DateTime.Parse(string.Format("{0}/{1}/1", dateNow.Year, dateNow.Month));
-            DisplayCalendar(dateFirst);
+           // DisplayCalendar(dateFirst);
             Console.ReadLine();
         }
 
